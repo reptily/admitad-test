@@ -1,16 +1,16 @@
 # Установка
 
-* Клонируем репозитoрий
+* Клонируем репозиторий
 ```bash
 git clone git@github.com:reptily/admitad-test.git
 ```
 
-* Поднимаем демон Docker: 
+* Поднимаем демон Docker:
 ```bash
 docker-compose up -d && docker-compose ps
 ```
 
-* Устанавливаем все зависемости
+* Устанавливаем все зависимости
 ```bash
 docker exec app composer install
 ```
