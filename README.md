@@ -22,7 +22,7 @@ docker exec app composer install
 
 * Устанавливаем права доступа на запись логов и кеш файлов
 ```bash
-docker exec app chmod 777 storage/logs && chmod 777 storage/framework/sessions && chmod 777 storage/framework/views
+docker exec app chmod 777 storage/ -R
 ```
 
 * Копируем настройки по умолчанию
