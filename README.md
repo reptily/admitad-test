@@ -8,7 +8,7 @@ git clone git@github.com:reptily/admitad-test.git
 * Переходим в директорию с проектом
 ```bash
 cd admitad-test
-``
+```
 
 * Поднимаем демон Docker:
 ```bash
