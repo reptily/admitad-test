@@ -12,7 +12,7 @@
 
                                 <table class="table">
                                     <tr class="table-active">
-                                        <td>Дата/Вермя</td>
+                                        <td>Дата/Время</td>
                                         <td>Браузер</td>
                                         <td>Версия</td>
                                         <td>Операционная система</td>
