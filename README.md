@@ -5,6 +5,11 @@
 git clone git@github.com:reptily/admitad-test.git
 ```
 
+* Переходим в директорию с проектом
+```bash
+cd admitad-test
+``
+
 * Поднимаем демон Docker:
 ```bash
 docker-compose up -d && docker-compose ps
@@ -17,7 +22,7 @@ docker exec app composer install
 
 * Устанавливаем права доступа на запись логов и кеш файлов
 ```bash
-docker exec app chmod 777 storage/logs && chmod 777 storage/framework/sessions && chmod 777 storage/framework/views
+docker exec app chmod 777 storage/ -R
 ```
 
 * Копируем настройки по умолчанию
@@ -37,4 +42,5 @@ docker exec app ./artisan migrate
 
 После установки веб проект доступен по адрессу http://127.0.0.1:7000/
 
-
+## Демо
+Демонстрационная версия доступна по адресу http://go2ride.asuscomm.com:7000/
