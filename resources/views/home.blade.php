@@ -11,7 +11,7 @@
                             <div style="margin-bottom: 15px">Выши ссылки:</div>
                             @foreach($Links as $obj)
                                 <div style="margin-bottom: 15px">
-                                    <span style="width: 35px; color: grey">{{ $obj->count_redirect }}</span>
+                                    <span style="margin-right: 10px; color: grey"><i class="fa fa-bar-chart" aria-hidden="true"></i> {{ $obj->count_redirect }} </span>
                                     <a href="/home/{{ $obj->id }}">{{ request()->getSchemeAndHttpHost() }}/s/{{ $obj->key }}</a>
                                 </div>
                             @endforeach
